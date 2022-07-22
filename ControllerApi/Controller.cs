@@ -40,7 +40,7 @@ namespace ControllerApi
                 int temp=CheckSensor();
                 pCallback(10, temp.ToString());//m_running==false ,gets it out from while loop 
             }
-            pCallback(0, "Stopped");//and do the things below the concearning cases in the form class using the pCallBack delegation.
+            pCallback(0, "Stopped");//and do the things below the concearning cases in the form  class using the pCallBack delegation.
         }
         int CheckSensor() 
         {
